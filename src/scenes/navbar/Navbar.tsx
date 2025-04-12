@@ -35,7 +35,7 @@ const navbarBackground = isTopOfPage ? '' : 'bg-primary-100 drop-shadow'
       </div>
       <div className={`${flexBetween} gap-8`}>
         <p>Sign In</p>
-        <ActionButton setSelectedPage={setSelectedPage} className="">Become a member</ActionButton>
+        <ActionButton setSelectedPage={setSelectedPage} >Become a member</ActionButton>
       </div> </div> ) : (
       <button className='rounded-full bg-secondary-500 p-2'
       onClick={() => setIsMenuToggled(!isMenuToggled)}>
