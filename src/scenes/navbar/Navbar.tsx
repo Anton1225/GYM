@@ -2,7 +2,6 @@ import {useState} from 'react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/solid';
 import Logo from '@/assets/Logo.png';
 import Link from '../Link.tsx'
-import { select, use } from 'framer-motion/client';
 import { SelectedPage } from '@/shared/types.ts';
 import { useMediaQuery } from '@/hooks/useMediaQuery.ts';
 import ActionButton from '@/shared/ActionButton.tsx';
